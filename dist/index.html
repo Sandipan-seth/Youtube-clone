@@ -11,8 +11,8 @@
 </head>
 <body>
     <div class="h-screen w-screen flex">
-        <div class="h-full w-[18%] flex flex-col">
-            <div class="w-full h-56 bg-white flex flex-col items-center p-2">
+        <div class="h-full w-[18%] flex flex-col overflow-scroll overflow-x-hidden">
+            <div class="w-full h-56 bg-white flex flex-col items-center p-2 border-b">
                 <div class="w-[90%] h-16 flex justify-center items-center gap-x-3">
                     <div class="h-10 w-10 bg-white flex flex-col items-center justify-center rounded-full hover:bg-slate-200 cursor-pointer">
                         <div class="w-6 h-0.5 bg-black mb-1"></div>
@@ -27,22 +27,73 @@
 
                 <div class="h-10 w-[90%] mt-5 flex items-center bg-slate-100 rounded-md cursor-pointer">
                     <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-house fa-lg"></i></div>
-                    <div class="w-20 h-7  flex justify-center items-center font-medium text-lg font-sans">Home</div>
+                    <div class="w-20 h-7  flex ml-5 items-center text-lg font-sans">Home</div>
                 </div>
 
 
                 <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
                     <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-file-video fa-lg"></i></div>
-                    <div class="w-20 h-7  flex justify-center items-center font-medium text-lg font-sans">Shorts</div>
+                    <div class="w-20 h-7  flex ml-5 items-center text-lg font-sans">Shorts</div>
                 </div>
 
                 <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
                     <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-regular fa-folder fa-lg"></i></div>
-                    <div class="w-32 h-7  flex justify-center items-center font-medium text-lg font-sans">Subscription</div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">Subscription</div>
                 </div>
             </div>
-            <div></div>
-            <div></div>
+
+
+            <div class="w-full h-72 p-2 flex flex-col items-center border-b">
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2 font-md text-lg font-sans">You</div>
+                    <div class="w-7 h-5  flex items-center font-medium font-sans ml-2 mt-1"><i class="fa-solid fa-greater-than"></i></div>
+                </div>
+
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-file-video fa-lg"></i></div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">Your channel</div>
+                </div>
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-clock-rotate-left fa-lg"></i></div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">History</div>
+                </div>
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-video fa-lg"></i>
+                    </div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">Your videos</div>
+                </div>
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-regular fa-clock fa-lg"></i>
+                    </div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">Watch Later</div>
+                </div>
+
+
+                <div class="h-10 w-[90%] mt-1 flex items-center rounded-md cursor-pointer hover:bg-slate-100">
+                    <div class="w-7 h-7  flex justify-center items-center ml-8 mr-2"><i class="fa-solid fa-caret-down fa-lg"></i>
+                    </div>
+                    <div class="w-32 h-7  flex ml-5 items-center text-lg font-sans">Show more</div>
+                </div>
+
+
+            </div>
+
+            
+            <div class="w-full h-80 p-2 flex flex-col items-center bg-slate-200">
+
+
+                <div class="h-10 w-[90%] flex items-center rounded-md font-bold text-md">
+                    <div class="w-32 h-7  flex items-center ml-8">Subscriptions
+                    </div>
+                </div>
+
+                
+            </div>
         </div>
     </div>
 </body>
