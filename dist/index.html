@@ -190,15 +190,36 @@
 
         <div class="h-full w-[82%] flex flex-col">
 
-            <div class="w-full h-16 sticky">
+            <div class="w-full h-16 sticky flex items-center">
 
 
-                <div class="w-full h-full flex items-center justify-center">
-                    <div class="h-11 w-6/12 flex relative">
-                        <input type="text" class="h-full w-11/12 px-3 py-1 rounded-l-3xl border-2 border-slate-300 focus:outline-blue-400 placeholder:font-medium" placeholder="Search">
-                        <div class="absolute h-11 w-14 bg-slate-100 right-0 border-2 border-slate-300 flex justify-center items-center rounded-r-full"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="w-full h-full flex items-center  gap-x-2 justify-between">
+                    <div class="h-11 w-7/12 flex relative justify-end items-center">
+                        <input type="text" class="h-full w-10/12 px-3 py-1 rounded-l-3xl border-2 border-slate-300 focus:outline-blue-400 placeholder:font-medium" placeholder="Search">
+                        <div class="absolute h-11 w-14 bg-slate-100 border-2 cursor-pointer left-[98%] border-slate-300 flex justify-center items-center rounded-r-full"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div
+                            class="absolute h-11 w-11 bg-slate-100 cursor-pointer hover:bg-slate-200 left-[110%] border-slate-300 flex justify-center items-center rounded-full">
+                            <i class="fa-solid fa-microphone fa-lg"></i> 
+                        </div>
+                    </div>
+
+
+                    <div class="h-11 w-4/12 flex items-center justify-end gap-x-2 ml">
+                        <div class="h-10 w-10 flex justify-center items-center cursor-pointer rounded-full hover:bg-slate-200">
+                            <i class="fa-solid fa-video fa-lg"></i>
+                        </div>
+                        
+                        <div class="h-10 w-10 flex justify-center items-center cursor-pointer rounded-full hover:bg-slate-200">
+                            <i class="fa-regular fa-bell fa-lg"></i>
+                        </div>
+                        
+                        <div class="h-10 w-10 flex justify-center items-center cursor-pointer mr-2 rounded-full hover:bg-slate-200">
+                            <img src="https://yt3.ggpht.com/yti/ADpuP3Pg6Z9nGafznMT1O8BcIpVCgEaM7P_EvevdMxxqkA=s88-c-k-c0x00ffffff-no-rj" alt=""
+                                class="h-9 w-9 rounded-full">
+                        </div>
                     </div>
                 </div>
+
 
 
             </div>
