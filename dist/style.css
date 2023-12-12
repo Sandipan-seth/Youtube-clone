@@ -588,6 +588,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -656,6 +660,10 @@ video {
   height: 100vh;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -666,6 +674,10 @@ video {
 
 .w-11 {
   width: 2.75rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-14 {
@@ -716,6 +728,10 @@ video {
   width: 18%;
 }
 
+.w-\[32\%\] {
+  width: 32%;
+}
+
 .w-\[82\%\] {
   width: 82%;
 }
@@ -734,6 +750,30 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.min-w-\[10px\] {
+  min-width: 10px;
+}
+
+.min-w-\[12px\] {
+  min-width: 12px;
+}
+
+.min-w-\[16px\] {
+  min-width: 16px;
+}
+
+.min-w-\[20px\] {
+  min-width: 20px;
+}
+
+.min-w-\[24px\] {
+  min-width: 24px;
+}
+
+.min-w-\[32px\] {
+  min-width: 32px;
 }
 
 .cursor-pointer {
@@ -774,16 +814,12 @@ video {
   overflow: scroll;
 }
 
-.overflow-x-auto {
-  overflow-x: auto;
-}
-
 .overflow-x-hidden {
   overflow-x: hidden;
 }
 
-.overflow-x-scroll {
-  overflow-x: scroll;
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .rounded-full {
@@ -835,6 +871,11 @@ video {
 .bg-slate-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .bg-white {
