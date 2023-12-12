@@ -1,5 +1,5 @@
 
-# Gmail frontend clone
+# Youtube frontend clone
 
 I tried to make a frontend clone of a popular website Youtube
 
